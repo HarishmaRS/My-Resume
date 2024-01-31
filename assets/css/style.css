@@ -618,6 +618,7 @@ img {
 
   .resume_left {
     background-color: var(--container-color-alt);
+    height: 100%;
   }
 
   .resume_left,

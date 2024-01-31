@@ -133,5 +133,5 @@ resumeButton.addEventListener('click', () => {
 
     //3. The scale_cv class is removed from the body after 5 seconds to return to normal size after downloaded
 
-    setTimeout(removeScale, 50000)
+    setTimeout(removeScale, 5000)
 })
