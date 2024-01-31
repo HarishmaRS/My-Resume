@@ -4,13 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
-    <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- BOX icons  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <!-- StyleSheet  -->
@@ -27,32 +20,37 @@
             <div class="nav_menu" id="nav_menu">
                 <ul class="nav_list">
                     <li class="nav_item">
-                        <a href="#" class="nav_link active-link">
+                        <a href="#home" class="nav_link active-link">
                             <i class='bx bx-home nav_icon'></i>Home
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#" class="nav_link">
+                        <a href="#profile" class="nav_link">
                             <i class='bx bx-user nav_icon'></i>Profile
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#" class="nav_link">
+                        <a href="#education" class="nav_link">
                             <i class='bx bx-book nav_icon'></i>Education
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#" class="nav_link">
+                        <a href="#skills" class="nav_link">
                             <i class='bx bx-receipt nav_icon'></i>Skills
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#" class="nav_link">
+                        <a href="#experience" class="nav_link">
                             <i class='bx bx-briefcase nav_icon'></i>Experience </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#" class="nav_link">
-                            <i class='bx bx-award nav_icon'></i>Certificate
+                        <a href="#certification" class="nav_link">
+                            <i class='bx bx-award nav_icon'></i>Certification
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#certification" class="nav_link">
+                            <i class='bx bx-folder-open'></i>Projects
                         </a>
                     </li>
                 </ul>
@@ -65,140 +63,290 @@
     </header>
 
     <main class="l-main bd-container">
-        <div class="resume">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
             <div class="resume_left">
-                <!-- All elements within this div, is generated in PDF -->
-                <div class="resume" id="area-cv">
-                    <div class="resume__left">
-                        <!--========== HOME ==========-->
-                        <section class="home" id="home">
-                            <div class="home_container section bd-grid">
-                                <div class="home_data bd-grid">
-                                    <img src="assets/image/square wt bg up.png" alt="" class="home_img">
-                                    <h1 class="home_title">Harishma <b>R S</b></h1>
-                                    <h1 class="home_profession">Web developer</h1>
-                                    <!-- Button to generate and download the pdf. Available for mobile. -->
-                                    <div>
-                                        <a href="" download="" class="home_download">Download</a>
-                                    </div>
-                                </div>
-                                <div class="home_address bd-grid">
-                                    <span class="home_information">
-                                        <i class='bx bx-map home_icon'></i> Tirupur, Tamilnadu.
-                                    </span>
-                                    <span class="home_information">
-                                        <i class='bx bx-envelope home_icon'></i> harishmarsuseel@gmail.com
-                                    </span>
-                                    <span class="home_information">
-                                        <i class='bx bx-phone home_icon'></i> +91 9345876569
-                                    </span>
-                                </div>
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home_container section_left bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="assets/image/Harishma.png" alt="Harishma RS" class="home_img">
+                            <h1 class="home_title">Harishma <b>R S</b></h1>
+                            <h1 class="home_profession">Web developer</h1>
+                            <!-- Button to generate and download the pdf. Available for mobile. -->
+                            <div>
+                                <a href="./assets/resume/HarishmaResume.pdf" download="mobile-Resume.pdf"
+                                    class="home_download">Download</a>
                             </div>
-                            <!-- Theme change button -->
-
-                        </section>
-
-                        <!--========== SOCIAL ==========-->
-                        <section class="social section">
-                            <h2 class="section_title">SOCIAL</h2>
-                            <div class="social_container bd-grid">
-                                <a href="https://www.linkedin.com/in/harishma-r-s-09b615181/" target="_blank"
-                                    class="social_link">
-                                    <i class='bx bxl-linkedin social_icon'></i> Harishma RS
-                                </a>
-                                <a href="https://github.com/HarishmaRS" target="_blank" class="social_link">
-                                    <i class='bx bxl-github social_icon'></i> Harishma RS
-                                </a><a
-                                    href="https://www.instagram.com/_harishma_rs_karthu/?igsh=MW8zZHh6bmloamh5dg%3D%3D"
-                                    target="_blank" class="social_link">
-                                    <i class='bx bxl-instagram-alt social_icon'></i> Harishma RS
-                                </a>
-                                </a><a href="https://www.facebook.com/HarishmaaRS" target="_blank" class="social_link">
-                                    <i class='bx bxl-facebook-circle social_icon'></i> Harishma RS
-                                </a>
-                            </div>
-                        </section>
-
-                        <!--========== PROFILE ==========-->
-                        <section class="profile section" id="profile">
-                            <h2 class="section_title">Profile</h2>
-                            <p class="profile_desc">A self-motivated and enthusiastic individual with a B.E in Computer
-                                Science & Engineering looking for a role of MERN stack developer at a reputed
-                                organisation where I can use my knowledge and Skills of design and development as per
-                                client's requirements to develop the company and further learn new things and gain
-                                professional experience alongside.</p>
-                        </section>
-
-                        <!--========== EDUCATION ==========-->
-                        <section class="education section" id="education">
-                            <h2 class="section_title">Education</h2>
-                            <div class="education_container bd-grid">
-                                <div class="education_content">
-                                    <div class="education_time">
-                                        <span class="education_rounder"></span>
-                                        <span class="education_line"></span>
-
-                                    </div>
-                                    <div class="education_data bd-grid">
-                                        <h3 class="education_title">B.E - CSE</h3>
-                                        <span class="education_studies">Anna University</span>
-                                        <span class="education_year">2016 - 2020</span>
-                                    </div>
-                                </div>
-                                <div class="education_content">
-                                    <div class="education_time">
-                                        <span class="education_rounder"></span>
-                                        <span class="education_line"></span>
-
-                                    </div>
-                                    <div class="education_data bd-grid">
-                                        <h3 class="education_title">HSC</h3>
-                                        <span class="education_studies">Jaivabai Municipal girls Hr.Sec School</span>
-                                        <span class="education_year">2015 - 2016</span>
-                                    </div>
-                                </div>
-                                <div class="education_content">
-                                    <div class="education_time">
-                                        <span class="education_rounder"></span>
-                                        <!-- <span class="education_line"></span> -->
-
-                                    </div>
-                                    <div class="education_data bd-grid">
-                                        <h3 class="education_title">SSLC</h3>
-                                        <span class="education_studies">Jaivabai Municipal girls Hr.Sec School</span>
-                                        <span class="education_year">2013 - 2014</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-
-                        <!--========== SKILLS  ==========-->
-                        <section class="skills section" id="skills">
-
-                        </section>
-
+                        </div>
+                        <div class="home_address bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon'></i> Tirupur, Tamilnadu.
+                            </span>
+                            <span>
+                                <a href="mailto:harishmarsuseel@gmail.com" class="home_information" target="_blank"><i
+                                        class='bx bx-envelope home_icon'></i> harishmarsuseel@gmail.com </a>
+                            </span>
+                            <span>
+                                <a href="tel: 91-9345876569" class="home_information" target="_blank"><i class='bx bx-phone home_icon'></i> +91
+                                    9345876569</a>
+                            </span>
+                        </div>
                     </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change_theme' title="Theme" id="theme-button"></i>
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate_pdf' title="Generate PDF" id="resume_button"></i>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section_left">
+                    <h2 class="section_title">SOCIAL</h2>
+                    <div class="social_container bd-grid">
+                        <a href="https://www.linkedin.com/in/harishma-r-s-09b615181/" target="_blank"
+                            class="social_link">
+                            <i class='bx bxl-linkedin social_icon'></i> Harishma RS
+                        </a>
+                        <a href="https://github.com/HarishmaRS" target="_blank" class="social_link">
+                            <i class='bx bxl-github social_icon'></i> Harishma RS
+                        </a><a href="https://www.instagram.com/_harishma_rs_karthu/?igsh=MW8zZHh6bmloamh5dg%3D%3D"
+                            target="_blank" class="social_link">
+                            <i class='bx bxl-instagram-alt social_icon'></i> _harishma_rs_karthu_
+                        </a>
+                        </a><a href="https://www.facebook.com/HarishmaaRS" target="_blank" class="social_link">
+                            <i class='bx bxl-facebook-circle social_icon'></i> Harishma RS
+                        </a>
+                    </div>
+                </section>
+
+                <!--==========MOBILE  PROFILE ==========-->
+                <section class="mobile_profile section_left" id="profile">
+                    <h2 class="section_title">Profile</h2>
+                    <p class="profile_desc">A self-motivated and enthusiastic individual with a B.E in Computer
+                        Science & Engineering looking for a role of MERN stack developer at a reputed
+                        organisation where I can use my knowledge and Skills of design and development as per
+                        client's requirements to develop the company and further learn new things and gain
+                        professional experience alongside.</p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section_left" id="education">
+                    <h2 class="section_title">Education</h2>
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">B.E - CSE</h3>
+                                <span class="education_studies">Anna University</span>
+                                <span class="education_year">2016 - 2020</span>
+                            </div>
+                        </div>
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">HSC</h3>
+                                <span class="education_studies">Jaivabai Municipal girls Hr.Sec School</span>
+                                <span class="education_year">2015 - 2016</span>
+                            </div>
+                        </div>
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!-- <span class="education_line"></span> -->
+
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">SSLC</h3>
+                                <span class="education_studies">Jaivabai Municipal girls Hr.Sec School</span>
+                                <span class="education_year">2013 - 2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
-                </div>
-                <div class="resume_right">
-
-                </div>
+                <!--========== SKILLS  ==========-->
+                <section class="skills section_left" id="skills">
+                    <h2 class="section_title">Skills</h2>
+                    <div class="skills_content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>HTML
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>CSS
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Bootstrap
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>JavaScript
+                            </li>
+                        </ul>
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>React.js
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Node.js
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>MongoDB
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Git & Github
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section_left" id="languages">
+                    <h2 class="section_title">languages</h2>
+                    <div class="languages_content bd-grid">
+                        <ul class="languages_data">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>Malayalam
+                            </li>
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>Tamil
+                            </li>
+                        </ul>
+                        <ul class="languages_data">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div>
 
+            <div class="resume_right">
+                <!--========== DESKTOP PROFILE ==========-->
+                <section class="profile section_right" id="profile">
+                    <h2 class="section_title">Profile</h2>
+                    <p class="profile_desc">A self-motivated and enthusiastic individual with a B.E in Computer
+                        Science & Engineering looking for a role of MERN stack developer at a reputed
+                        organisation where I can use my knowledge and Skills of design and development as per
+                        client's requirements to develop the company and further learn new things and gain
+                        professional experience alongside.</p>
+                </section>
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section_right" id="experience">
+                    <h2 class="section_title">Experience</h2>
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <h3 class="experience_title">ASSISTANT SYSTEM ENGINEER</h3>
+                            <h3 class="experience_company">Tata Consultancy Services (TCS)</h3>
+                            <p class="experience_years">From Feb 2021 to Sep 2022</p>
+                            <p class="experience_desc">Got trained and understand the whole working of an
+                                application named Reporting and Track & Trace. Handled the tickets raised by various
+                                client users having issues or need any changes in the application and provided the
+                                proper resolution within the given SLA. Guided and managed the team by assigning
+                                tickets and tracking the status for making sure to avoid missing SLA's
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section_right" id="certificates">
+                    <h2 class="section_title">Certification</h2>
+                    <div class="certificate_container bd-grid">
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">Full Stack Web Development</h3>
+                            <p class="certificate_desc">Completed the course on Full Stack Web Development (MERN)
+                                program and got certificate of Excellence from Edureka</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- === PROJECTS === -->
+                <section class="project section_right" id="projects">
+                    <h2 class="section_title">Projects</h2>
+                    <div class="project_container bd-grid">
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">Zomato Clone App</h3>
+                                <p class="project_desc">A food Delivery Application (Zomato clone) using frontend
+                                    technologies such as HTML, CSS, Bootstrap, JavaScript, React.js and Backend
+                                    technologies such as Node.js and MongoDB database</p>
+                            </div>
+                        </div>
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                    <h3 class="project_title">My Portfolio</h3>
+                                    <p class="project_desc">Created a responsive Portfolio page using HTMl, CSS,
+                                        Bootstrap and JavaScript</p>
+                                
+                            </div>
+                        </div>
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <!-- <span class="project_line"></span> -->
+                            </div>
+                            <div class="project_data bd-grid">
+                                    <h3 class="project_title">Resume</h3>
+                                    <p class="project_desc">Created a responsive resume using HTML, CSS and
+                                        javaScript</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section_right">
+                    <h2 class="section_title">Interests</h2>
+                    <div class="interests_container bd-grid">
+                        <div class="interests_content">
+                            <i class='bx bx-headphone interests_icon'></i>
+                            <span class="interests_name"> Music</span>
+                        </div>
+
+                        <div class="interests_content">
+                            <i class='bx bxs-cricket-ball'></i>
+                            <span class="interests_name"> Watching cricket</span>
+                        </div>
+
+                        <div class="interests_content">
+                            <i class='bx bx-game'></i>
+                            <span class="interests_name"> Sudoku</span>
+                        </div>
+                    </div>
+            </div>
+            </section>
+        </div>
+        </div>
     </main>
 
 
+    <!-- =====SCROLL TOP ===== -->
+    <a href="#" class="scrolltop" id="scroll_top">
+        <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+    </a>
 
 
+    <!-- HTML 2 PDF  -->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
 
-
-
-    <!-- Booststrap js cdn link  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <!--=== MAIN JS ====  -->
     <script src="./assets/js/main.js"></script>
 </body>
 
