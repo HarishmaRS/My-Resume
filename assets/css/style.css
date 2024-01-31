@@ -631,7 +631,8 @@ img {
   }
 
   .section_title,
-  .profile_desc {
+  .profile_desc,.certificate_desc,
+  .experience_desc {
     text-align: initial;
   }
   .mobile_profile{
@@ -644,6 +645,7 @@ img {
   .home_download {
     display: none;
   }
+
 
   /* .languages_content {
     grid-template-columns: repeat(2, max-content);
