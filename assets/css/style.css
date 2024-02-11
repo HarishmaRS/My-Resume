@@ -438,6 +438,12 @@ img {
   /* font-weight: .25rem; */
 }
 
+.link_icon{
+  font-size: 1.2rem;
+  margin-top: .25rem;
+  color: var(--text-color);
+}
+
 /* ==== PROFILE ===== */
 .profile_desc {
   text-align: center;
